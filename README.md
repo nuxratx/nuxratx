@@ -1,11 +1,5 @@
-- Hi, I am Miss Glamorous
-- I’m interested in sorting massive data using python scripts
-- I’m currently learning how to efficiently look at data to extract relevant information 
+Hi there!
+I'm primarily interested in Data Analysis and Data manipulation. I am very interested to make sense of the large data set. 
 
 
 
-
-<!---
-nuxratx/nuxratx is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
