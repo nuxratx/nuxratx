@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        .item-a{
+            grid-area: s1;
+            display: grid;
+            column-gap: 50px;
+        }
+        .item-b{
+            grid-area:s2;
+            display: grid;
+            column-gap: 50px;
+        }
+        .item-c{
+            grid-area:s3;
+            display: grid;
+            column-gap: 50px;
+        }
+        .item-d{
+            grid-area:s4;
+            display: grid;
+            column-gap: 50px;
+        
+        }
+        .item-e{
+            grid-area:s5;
+            display: grid;
+            column-gap: 50px;
+        }
+        .item-f{
+            grid-area:s6;
+            display: grid;
+            column-gap: 50px;
+        }
+        .container{
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            grid-template-areas:
+            
+
+            "s1 s2 s3"
+            "s4 s5 s6";
+            
+        
+        }
+        .flex-container{
+            display: flex;
+            flex-wrap: wrap;
+            background-color: rgb(235, 135, 242);
+            
+        }
+        .square{
+            width: 5em;
+            height: 5em;
+            border: 15px solid green;
+            padding: 50px;
+            margin: 20px;
+            display: flex;
+            flex:auto;
+
+
+        }
+
+        button:hover{
+            border: 15px solid rgb(43, 53, 27);
+            background-color: rgb(229, 105, 105) ;
+            cursor: pointer ;
+        }
+    </style>
+        <h1>
+            This is a website: 
+
+
+            
+        </h1>
+
+        
+
+    </head>
+<body>
+   
+    <div class="container">
+        
+        <button class= "item-a square flex-container" type ="button">
+            <div>Click me Please!</div>
+        </button> 
+        <button class="item-b square flex-container" type = "button">
+        <div></div>
+        </button> 
+        <button class="item-c square flex-container">
+        <div></div>
+        </button> 
+        <div class="item-d square flex-container">
+        <div></div>
+        </div> 
+        <div class="item-e square flex-container">
+        <div></div>
+        </div>
+        <div class="item-f square flex-container">
+        <div></div>
+        </div>
+        
+    </div> 
+    
+    
+</body>
+
+
+  
