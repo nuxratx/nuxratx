@@ -62,23 +62,68 @@
 
         }
 
+
         button:hover{
             border: 15px solid rgb(43, 53, 27);
             background-color: rgb(229, 105, 105) ;
             cursor: pointer ;
         }
+
+        #r1{
+            grid-area: r1;
+        }
+        #r2{
+            grid-area: r2;
+        }
+        #r3{
+            grid-area: r3;
+        }
+        #r4{
+            grid-area: r4;
+        }
+
+        #c1{
+            grid-area: c1;
+        }
+        #c2{
+            grid-area: c2;
+        }
+        #c3{
+            grid-area: c3;
+        }
+        #c4{
+            grid-area: c4;
+        }
+        .form-flex {
+                display: grid;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+                grid-template-columns: 1fr 1fr;
+                grid-template-areas: 
+                "r1 c1"
+                "r2 c2" 
+                "r3 c3"
+                "r4 c4";
+                text-align: right;
+                justify-items: start;         
+        }
+        
+        form{
+            min-width: 300px;
+            max-width: 30%;
+        }
+
+
     </style>
         <h1>
             This is a website: 
 
-
-            
         </h1>
 
         
 
     </head>
 <body>
+      
    
     <div class="container">
         
@@ -102,6 +147,53 @@
         </div>
         
     </div> 
+
+    <form >
+        <fieldset>
+          <legend>This is a legend</legend>
+          <div class = "form-flex">
+            <div id="r1">
+                <input type="radio" id="proxyChoice1" name="contact" value="email" />
+                <label for="contactChoice1">This is box 1 clickable:</label>
+            </div>
+            <div id="r2">
+                <input type="radio" id="contactChoice2" name="contact" value="phone" />
+                <label for="contactChoice2">This is box 2 clickable:</label>
+            </div>
+            <div id="r3">
+                <input type="radio" id="contactChoice3" name="contact" value="mail" />
+                <label for="contactChoice3">This is box 3 clickable:</label>
+            </div>
+            <div id="r4">
+                <input type="radio" id = "choice4" name="contact" value="choice4">
+                <label for="choice4" >This is box 4: </label>
+            </div>
+            <div id="c1">
+                <input type="checkbox" id="contactChoice11" name="proxy" value="anything" />
+                <label for="contactChoice1">This is box 1 clickable:</label>
+
+            </div>
+            <div id="c2">
+                <input type="checkbox" id="contactChoice12" name="proxy" value="anything2" />
+                <label for="contactChoice2">This is box 2 clickable:</label>
+               
+            </div>
+            <div id="c3">
+                <input type="checkbox" id="contactChoice13" name="proxy" value="anything3" />
+                <label for="contactChoice3">This is box 3 clickable:</label>
+                
+            </div>
+            <div c="c4">
+                <input type="checkbox" id = "choice14" name="proxy" value="anything4">
+                <label for="choice4" >This is box 4: </label>
+                
+            </div>
+          </div>
+          <div>
+            <button type="submit">Submit</button>
+          </div>
+        </fieldset>
+      </form>
     
     
 </body>
