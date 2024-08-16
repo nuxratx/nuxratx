@@ -1,6 +1,27 @@
 <!DOCTYPE html>
 <head>
     <style>
+        .circle{
+            width: 78em;
+            height: 5em;
+            border: 15px solid rgb(205, 163, 237);
+            padding: 50px;
+            margin: 20px;
+            display: flex;
+            flex:auto;
+        }
+        .container2{
+            display:grid;
+            grid-template-columns: 1fr ;
+            grid-template-rows: 1fr ;
+            
+
+        }
+        .object1{
+        grid-area:calc(3);
+        display: ruby-text-container;
+        column-gap: normal;
+        }
         .item-a{
             grid-area: s1;
             display: grid;
@@ -113,6 +134,7 @@
         }
 
 
+
     </style>
         <h1>
             This is a website: 
@@ -194,6 +216,11 @@
           </div>
         </fieldset>
       </form>
+
+      <div class="container2" >
+        <div class= "object1 circle"></div>
+        <div></div>
+      </div>
     
     
 </body>
