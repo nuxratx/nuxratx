@@ -21,8 +21,8 @@
 -- ⚡ Fun fact: ...
 -->
 I'm primarily interested in **Automation** I am fascinated by the fact that I can utilize tool like Anaconda to extract any relavent information from a massive dataset with a few lines of code using python language. Using a small script I can program my computer to organize my files for me, I can tell my computer what to do, program it in the way I like rather than it telling me what to do. I find that really cool.
-<!--#### Let's connect!
-[<img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230E76A8.svg?&style=for-the-badge&logo=LinkedIn&logoColor=white" />](https://www.linkedin.com/feed/)
--->
+#### Let's connect!
+[<img alt="Medium" src="https://img.shields.io/badge/Medium-%23000000.svg?&style=for-the-badge&logo=Medium&logoColor=white" />](https://medium.com/@alamnusrat18)
+
 
 
