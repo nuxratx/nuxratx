@@ -75,14 +75,13 @@
         <div></div>
         </div>
         
-    </div> 
-
-    <form >
+    </div>   
+    <form action="/submit" method="post">    
         <fieldset>
           <legend>This is a legend</legend>
           <div class = "form-flex">
             <div id="r1">
-                <input type="radio" id="proxyChoice1" name="contact" value="email" />
+                 <input type="radio" id="proxyChoice1" name="contact" value="email" />
                 <label for="contactChoice1">This is box 1 clickable:</label>
             </div>
             <div id="r2">
@@ -118,19 +117,19 @@
             </div>
             <div id = "text1" >
                 <label for="fname1">First name:</label><br>
-                <input type="text" id="fname1" name="fname" placeholder="Lilac"><br><br>
+                <input type="text" id="fname1" name="fname1" placeholder="Lilac"><br><br>
             </div>
             <div id = "text2">
                 <label for="fname2">First name:</label><br>
-                <input type="text" id="fname2" name="fname" placeholder="Rose"><br><br>
+                <input type="text" id="fname2" name="fname2" placeholder="Rose"><br><br>
             </div>
             <div id = "text3">
                 <label for="fname3">First name:</label><br>
-                <input type="text" id="fname3" name="fname" placeholder="Sunflower"><br><br>
+               <input type="text" id="fname3" name="fname3" placeholder="Sunflower"><br><br>
             </div>
             <div id = "text4">
                 <label for="fname4">First name:</label><br>
-                <input type="text" id="fname4" name="fname" placeholder="Lily" list="dropdown"><br><br>
+                <input type="text" id="fname4" name="fname4" placeholder="Lily" list="dropdown"><br><br>
                     <datalist id="dropdown">
                         <option>Volvo</option>
                         <option>Saab</option>
@@ -142,7 +141,7 @@
                 <textarea id="text5" name="text5" rows="4" cols="50" placeholder="What is your favorite flower?"></textarea>
             </div>
             <div>
-                <button type="submit" onclick="func">Submit</button>
+                <input type="submit" value="submit">
             </div>
             <div id="browse">
                 <label for="image1" class="drop-container" id ="dropcontainer">First File: 
